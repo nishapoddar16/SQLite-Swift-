@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        print("abc")
         DBManager.shared.createDatabase()
         DBManager.shared.createTable()
         DBManager.shared.insertInTable()
